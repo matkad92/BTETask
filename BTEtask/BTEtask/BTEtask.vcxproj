@@ -132,9 +132,11 @@
   <ItemGroup>
     <ClCompile Include="BTEtask.cpp" />
     <ClCompile Include="CurlRequester.cpp" />
+    <ClCompile Include="EmployeeFinder.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CurlRequester.h" />
+    <ClInclude Include="EmployeeFinder.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

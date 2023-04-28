@@ -72,5 +72,6 @@ std::string CurlRequester::getAllEmployees()
         curlEmployee = nullptr;
     }
 
+    curl_global_cleanup();
 	return employeeList;
 }
